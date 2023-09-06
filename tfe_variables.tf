@@ -54,6 +54,7 @@ resource "tfe_variable" "okta_terraform_human_okta_admin_users" {
 EOT
 }
 
+/*
 resource "tfe_variable" "okta_terraform_applications" {
   category     = "terraform"
   description  = "Map of Okta application IDs for applications in this Okta org"
@@ -66,6 +67,7 @@ resource "tfe_variable" "okta_terraform_applications" {
 }
 EOT
 }
+*/
 
 /*
 resource "tfe_variable" "okta_applications_deny_all_unauthorized_users" {

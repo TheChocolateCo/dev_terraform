@@ -231,7 +231,7 @@ resource "tfe_variable" "okta_sandbox_applications_deny_unmanaged_windows_client
 EOT
 }
 */
-
+/*
 resource "tfe_variable" "okta_applications_deny_external_network_zones" {
   category     = "terraform"
   description  = "List of applications that should have the deny_external_network_zones policy"
@@ -246,7 +246,6 @@ resource "tfe_variable" "okta_applications_deny_external_network_zones" {
 EOT
 }
 
-/*
 resource "tfe_variable" "okta_sandbox_applications_require_mfa_every_sign_on" {
   category     = "terraform"
   description  = "List of applications that should have the require_mfa_every_sign_on signon policy"
